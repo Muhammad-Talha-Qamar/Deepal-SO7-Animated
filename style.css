@@ -1,0 +1,128 @@
+.bar{
+    display: flex;
+    justify-content: space-evenly;
+    width: 30%;
+    position: absolute;
+    left: 35%;
+    top: 17px ;
+  font-family: "Source Sans 3", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: weight;
+  font-style: normal;
+}
+
+.item{
+    text-decoration: none;
+    color: black;
+}
+.chan{
+    position: absolute;
+    top: 27px;
+    right: 80px;
+}
+.menu{
+    position: absolute;
+    top: 17px;
+    right: 30px;
+}
+#pic1{
+    position: absolute;
+    right: 45%;
+    top: 120px;
+    font-size: 20px;
+    font-family: "Source Sans 3", sans-serif;
+  font-optical-sizing: auto;
+  font-style: normal;
+  text-align: center;
+}
+#para{
+    color: rgb(88, 87, 87);
+}
+#three{
+    /* border: 2px solid black; */
+    width: 1000px ;
+    display: flex;
+    color: white;
+    position: absolute;
+    top: 700px;
+    left: 220px;
+    justify-content: space-evenly;
+    font-family: "Source Sans 3", sans-serif;
+  font-optical-sizing: auto;
+  font-style: normal;
+  text-align: center;
+}
+#itoms{
+   font-size: 15px;
+}
+#items{
+   color: white;
+   background-color:rgba(0, 0, 0,0.7);
+   /* border: 2px solid black; */
+   border-radius: 20px;
+   text-decoration: none;
+   position: absolute;
+   top: 20px;
+   width: 250px;
+   height: 30px;
+   text-align: center;
+   margin-top: 23px;
+}
+#price{
+    position: absolute;
+    right: 80%;
+    color: black;
+    font-family: "Source Sans 3", sans-serif;
+  font-optical-sizing: auto;
+  font-style: normal;
+  text-align: center;
+}
+#price-box{
+    position: relative;
+    top:70px;
+    left: 350px;
+    border: 1.5px solid #333;
+    border-radius: 6px;
+    padding: 24px 16px 14px;
+    width: 350px;
+    background: #fff;
+}
+
+#price-box #title{
+    position: absolute;
+    top: -14px;
+    left: 12px;
+    background: #fff;
+    padding: 0 8px;
+    font-size: 18px;
+    color: #333;
+}
+
+#price-box p{
+    /* position: relative;
+    top: 120px; */
+    margin: 0;
+    font-size: 18px;
+}
+#card{
+    position:relative;
+    top: 10px;
+    left: 750px;
+    width:380px;
+    border:1px solid #444;
+    border-radius:6px;
+    padding:22px 14px 14px;
+}
+
+#card-label{
+    position:absolute;
+    top:-12px;
+    left:10px;
+    background:#f8f8f8; /* same as page background */
+    padding:0 6px;
+    font-size:18px;
+}
+
+#card-content{
+    font-size:16px;
+}
