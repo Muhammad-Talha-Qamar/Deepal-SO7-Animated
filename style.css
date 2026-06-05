@@ -15,8 +15,9 @@
 animation-duration: 2s;
 }
 .bar{
-       animation:lightSpeedInLeft;
-animation-duration: 2s;
+    animation:lightSpeedInLeft;
+    animation-duration: 2s;
+    animation-delay: 0s;
 }
 .item{
     text-decoration: none;
