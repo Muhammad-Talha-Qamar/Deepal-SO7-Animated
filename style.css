@@ -10,17 +10,24 @@
   font-weight: weight;
   font-style: normal;
 }
-
+.animate{
+   animation:rollIn;
+animation-duration: 2s;
+}
+.bar{
+       animation:lightSpeedInLeft;
+animation-duration: 2s;
+}
 .item{
     text-decoration: none;
     color: black;
 }
-.chan{
+#chan{
     position: absolute;
     top: 27px;
     right: 80px;
 }
-.menu{
+#menu{
     position: absolute;
     top: 17px;
     right: 30px;
